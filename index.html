@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda shoes online</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<header>
+    
+    <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#sidebar-menu">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    <div class="search-contenedor">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Buscar..." aria-label="search"
+                   aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="user-menu">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Hola, Inicia sesión
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+                <li><a class="dropdown-item" href="register.html">Registrarme</a></li>
+            </ul>
+        </div>
+        <a href="#">Mis compras</a>
+        <button class="btn btn-secondary">
+            <i class="fa fa-heart"></i>
+        </button>
+        <a href="#" class="btn btn-secondary">
+            <i class="fa fa-cart-shopping"></i>
+        </a>
+    </div>
+</header>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-menu" aria-labelledby="sidebar-menu">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menú</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <a href="/">
+            <i class="fa fa-home"></i>
+            Inicio
+        </a>
+        <a href="/compras.html">
+            <i class="fa fa-money-bill"></i>
+            Compras
+        </a>
+        <a href="/productos.html">
+            <i class="fa fa-box-archive"></i>
+            Productos
+        </a>
+        <a href="/contacto.html">
+            <i class="fa fa-phone"></i>
+            Contáctanos
+        </a>
+        <a href="/acercade.html">
+            <i class="fa fa-question-circle"></i>
+            Acerca de
+        </a>
+    </div>
+</div>
+
+<main>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouseExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouseExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouseExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouseExample" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+        <header class="jumbotron text-center">
+            <header> <img src="assets/img/logo tienda.jpg" alt="Logo de la página" id="logo" width="300" height="200"> </header>
+            <h1 class="display-4">Bienvenidos a Shoes Online</h1> 
+            <p class="lead">Encuentra loss mejores tennis deportivos aquí.</p>
+        </header>
+    
+    
+        <div class="container mt-5" id="productos">
+            <h2 class="text-center mb-4">Nuestros Productos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado7.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0020</h5>
+                            <p class="card-text">$150.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado20.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0022</h5>
+                            <p class="card-text">$140.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado4.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0024</h5>
+                            <p class="card-text">$130.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado11.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0026</h5>
+                            <p class="card-text">$120.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado12.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0028</h5>
+                            <p class="card-text">$130.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado13.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0030</h5>
+                            <p class="card-text">$120.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado16.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0032</h5>
+                            <p class="card-text">$150.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado18.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0034</h5>
+                            <p class="card-text">$160.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado19.jpg"class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0036</h5>
+                            <p class="card-text">$150.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado3.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0038</h5>
+                            <p class="card-text">$140.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado23.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tennis deportivo Referencia 0040</h5>
+                            <p class="card-text">$130.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/img/calzado22.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapatilla Deportiva</h5>
+                            <p class="card-text">$50.000</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+    
+ 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</main>
+
+<footer>
+    <div>
+        <strong>Te ayudamos</strong>
+        <ul>
+            <li><a href="#">Venta telefónica</a></li>
+            <li><a href="#">Centro de ayuda</a></li>
+            <li><a href="#">Devoluciones y cambios</a></li>
+            <li><a href="#">Estado de mi pedido</a></li>
+            <li><a href="#">Peticiones, quejas y reclamos</a></li>
+            <li><a href="#">Información legal</a></li>
+        </ul>
+    </div>
+    <div>
+        <strong>Medios de pago </strong>
+        <ul>
+            <li><a href="#">Elemento 1</a></li>
+            <li><a href="#">Elemento 2</a></li>
+            <li><a href="#">Elemento 3</a></li>
+            
+        </ul>
+    </div>
+    <strong>Siguenos en nuestras redes Sociales</strong>
+    <ul>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
+     
+    </ul>
+    
+
+</footer>
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js" type="module"></script>
+</body>
+</html>

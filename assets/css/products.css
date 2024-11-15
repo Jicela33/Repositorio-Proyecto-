@@ -1,0 +1,39 @@
+.price-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.price-content span:nth-child(1) {
+    color: #666;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+
+
+.star-content {
+
+}
+
+/* Dos columnas en pantallas medianas */
+@media screen and (min-width: 600px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Cuatro columnas en pantallas grandes */
+@media screen and (min-width: 1024px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
