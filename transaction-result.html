@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Compras</title>
+    <title>Resultado de la transacción</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
           integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-
 <header>
     <img src="https://www.creativefabrica.com/wp-content/uploads/2021/06/29/Gradient-ecommerce-logo-Online-shop-Graphics-14011354-1-1-580x386.png"
          alt="logo" width="200">
@@ -36,8 +35,8 @@
                 Hola, Inicia sesión
             </button>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
-                <li><a class="dropdown-item" href="#">Registrarme</a></li>
+                <li><a class="dropdown-item" href="login.html">Iniciar sesión</a></li>
+                <li><a class="dropdown-item" href="register.html">Registrarme</a></li>
             </ul>
         </div>
         <a href="#">Mis compras</a>
@@ -50,8 +49,6 @@
     </div>
 </header>
 
-<main></main>
-
 <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-menu" aria-labelledby="sidebar-menu">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menú</h5>
@@ -62,24 +59,32 @@
             <i class="fa fa-home"></i>
             Inicio
         </a>
-        <a href="compras.html">
+        <a href="/compras.html">
             <i class="fa fa-money-bill"></i>
             Compras
         </a>
-        <a href="productos.html">
+        <a href="/productos.html">
             <i class="fa fa-box-archive"></i>
             Productos
         </a>
-        <a href="contacto.html">
+        <a href="/contacto.html">
             <i class="fa fa-phone"></i>
             Contáctanos
         </a>
-        <a href="acercade.html">
+        <a href="/acercade.html">
             <i class="fa fa-question-circle"></i>
             Acerca de
         </a>
     </div>
 </div>
+
+<main>
+    <h1>Resultado de la transacción</h1>
+    <i id="icono-transaccion"></i>
+    <ul id="transaction-list-info"></ul>
+
+    <a href="productos.html" class="btn btn-primary">Seguir comprando</a>
+</main>
 
 <footer>
     <div>
@@ -96,22 +101,22 @@
     <div>
         <strong>Medios de pago </strong>
         <ul>
-            <li><a href="#">PSE</a></li>
-            <li><a href="#">Tarjeta Débito/Crédito</a></li>
-           
+            <li><a href="#">Elemento 1</a></li>
+            <li><a href="#">Elemento 2</a></li>
+            <li><a href="#">Elemento 3</a></li>
             
         </ul>
     </div>
     <strong>Siguenos en nuestras redes Sociales</strong>
     <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">TikTok</a></li>
+        <li><a href="#">Elemento 1</a></li>
+        <li><a href="#">Elemento 2</a></li>
+        <li><a href="#">Elemento 3</a></li>
      
     </ul>
+    
 </footer>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/script.js" type="module"></script>
-
+<script src="assets/js/result.js" type="module"></script>
 </body>
 </html>

@@ -1,6 +1,8 @@
-import productos from "/productos.json" with { type: "json" };
+import productos from "./productos.json" with { type: "json" };
 import Carrito from "./localstorage.js"
 import {formatoMoneda} from "./utils.js"
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     for (let producto of productos) {
@@ -106,5 +108,6 @@ function dibujarTarjeta(producto) {
 function onProductClick(producto) {
    Carrito.agregarItem(producto)
 }
+
 
 
